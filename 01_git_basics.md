@@ -25,5 +25,17 @@ git log --oneline # по 1 строке на коммит
 
 git commit --amend
 
+# привязка удаленного репозитория
+
+git remote add origin git@github.com:<accounts_name>/<repo_name>.git
+
+# отправка в удаленный репозиторий
+
+git push -u origin main # в первый раз
+git push                # в последующие
+git push -f             # принудительно, например после --amend
+
+
+
 
 
