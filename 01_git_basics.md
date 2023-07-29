@@ -19,9 +19,11 @@ git commit -m '<commit name>'
 # просмотр логов
 
 git log
-git log --one-line # по 1 строке на коммит
+git log --oneline # по 1 строке на коммит
 
+# исправить текущий коммит
 
+git commit --amend
 
 
 
