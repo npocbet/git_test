@@ -14,11 +14,11 @@ git add .
 
 # простой коммит
 
-git commit -m '<commit name>'
+git commit -m '%commit name%'
 
 # просмотр логов
 
-git log
+git log           # полная версия
 git log --oneline # по 1 строке на коммит
 
 # исправить текущий коммит
